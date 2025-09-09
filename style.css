@@ -30,7 +30,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   display: flex;
@@ -45,6 +45,7 @@ body{
   font-weight: 800;
   cursor: pointer;
   transition: 0.3s ease;
+  margin-left: 1.5rem;
 }
 
 .logo:hover{
@@ -117,7 +118,7 @@ span{
 .home-content h1{
   font-size: 3rem;
   font-weight: 700;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   line-height: 1;
 }
 
@@ -173,6 +174,12 @@ span{
   transform: scale(1.3) translateY(-5px);
   box-shadow: 0 0 25px var(--main-color);
   background-color: var(--main-color);
+}
+
+.social-icons-contact{
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
 }
 
 .btn{
@@ -249,8 +256,8 @@ span{
   content: "";
   position: absolute;
   width: 5px;
-  height: 5px;
-  height: 100%;
+  height: 3px;
+  height: 80%;
   background-color: var(--main-color);
   left: calc(50%);
 }
@@ -393,4 +400,46 @@ span{
   max-height: 100px;
   line-height: 1.5;
   margin: auto;
+}
+
+.miniPortofolio{
+  background-color: white;
+  color: black;
+}
+
+.porto-title-wrapper{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.porto-title-wrapper h3{
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.portofolio-card{
+  margin: 3rem;
+}
+
+.footer {
+    background-color: var(--main-color);  /* Warna latar belakang */
+    color: white;  /* Warna teks */
+    text-align: center;  /* Teks di tengah */
+    padding: 5px 0;  /* Spasi atas & bawah */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.bxs-heart{
+  font-size: 15px;
+}
+
+.btn-contact{
+  display: block;        /* ubah jadi block */
+  margin: 0 auto;        /* otomatis center secara horizontal */
+  width: fit-content;    /* supaya lebarnya pas konten */
+  font-size: 1.5rem;
+  text-align: center;
 }
