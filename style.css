@@ -485,6 +485,16 @@ span {
   html {
     font-size: 80%;
   }
+
+  header nav a{
+    font-size: 1.5rem;
+  }
+  header nav a.active{
+    font-size: 1.5rem;
+  }
+  /* header nav a[href="#home"].active{
+    font-size: 1.5rem;
+  } */
   
   .home{
     flex-direction: column-reverse;
